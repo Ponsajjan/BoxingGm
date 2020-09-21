@@ -3,11 +3,12 @@ from pygame.math import Vector2
 from pygame.locals import *
 FPS = 4
 pygame.init()
+#this is ttriAL 1 CODE modified
 screen_width = 1300
 screen_height = 650
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Boxing")
-clock = pygame.time.Clock()
+clock = pygame.time.Clock()``
 game_font = pygame.font.Font('freesansbold.ttf', 32)
 def events():
 	for event in pygame.event.get():
